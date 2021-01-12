@@ -1,0 +1,20 @@
+2021-01-11T15:32:33+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in D:\Program File\xampp\htdocs\liquidstore\wp-admin\includes\class-custom-image-header.php:1194
+Stack trace:
+#0 D:\Program File\xampp\htdocs\liquidstore\wp-admin\includes\class-custom-image-header.php(1300): Custom_Image_Header->get_header_dimensions(Array)
+#1 D:\Program File\xampp\htdocs\liquidstore\wp-includes\class-wp-hook.php(287): Custom_Image_Header->ajax_header_crop('')
+#2 D:\Program File\xampp\htdocs\liquidstore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\Program File\xampp\htdocs\liquidstore\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\Program File\xampp\htdocs\liquidstore\wp-admin\admin-ajax.php(184): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown di D:\Program File\xampp\htdocs\liquidstore\wp-admin\includes\class-custom-image-header.php pada baris 1194
+
+2021-01-11T15:32:53+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in D:\Program File\xampp\htdocs\liquidstore\wp-admin\includes\class-custom-image-header.php:1194
+Stack trace:
+#0 D:\Program File\xampp\htdocs\liquidstore\wp-admin\includes\class-custom-image-header.php(1300): Custom_Image_Header->get_header_dimensions(Array)
+#1 D:\Program File\xampp\htdocs\liquidstore\wp-includes\class-wp-hook.php(287): Custom_Image_Header->ajax_header_crop('')
+#2 D:\Program File\xampp\htdocs\liquidstore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\Program File\xampp\htdocs\liquidstore\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\Program File\xampp\htdocs\liquidstore\wp-admin\admin-ajax.php(184): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown di D:\Program File\xampp\htdocs\liquidstore\wp-admin\includes\class-custom-image-header.php pada baris 1194
+
